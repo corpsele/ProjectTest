@@ -10,7 +10,7 @@ import UIKit
 
 import ObjectMapper
 
-class UserInfo: Person {
+class UserInfo: BaseModel {
     public var accesstoken: String?
     public var birth: String?
     public var birthday: String?
@@ -26,6 +26,6 @@ class UserInfo: Person {
         accesstoken = ddd["accesstoken"] as? String
         birth = ddd["birth"] as? String
         birthday = ddd["birthday"] as? String
-        corpid = ddd["corpid"] as? String
+        corpid = ddd["corpid"] as? String 
     }
 }
