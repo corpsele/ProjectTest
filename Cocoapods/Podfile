@@ -1,0 +1,70 @@
+#source 'https://git.coding.net/hging/Specs.git'
+#pod install --verbose --no-repo-update
+#pod update --verbose --no-repo-update
+
+#link_with 'Kurrent_AppStore','Kurrent_Business','Kurrent_Kanjia','Kurrent_Beta','Kurrent_Tianan','Kurrent_BusinessCEM','中原农保'
+
+xcodeproj '../ProjectTest.xcodeproj'
+
+platform:ios, '8.0'
+
+inhibit_all_warnings!
+
+use_frameworks!
+
+target 'ProjectTest' do
+
+#pod "ReactiveCocoa", "~>4.0.1"
+
+#pod "UITableView+FDTemplateLayoutCell", "1.4"
+
+#0.6.4
+#pod "Masonry"
+
+
+#Kurrent_BusinessCEM
+#pod 'Charts'
+#pod 'HYBUnicodeReadable'
+#pod 'DraggableCollectionView'
+#pod 'UICKeyChainStore'
+#pod 'TOWebViewController'
+#pod 'UPStackMenu'
+#pod 'FMDB'
+#pod 'EAIntroView'
+#pod 'Masonry'
+#pod 'RESideMenu'
+#pod 'SWTableViewCell'
+#pod 'PureLayout'
+#pod 'SVProgressHUD'
+#pod 'MJRefresh'
+#pod 'MJExtension'
+#pod 'SPUncaughtExceptionHandler'
+#pod 'JPush'
+#pod 'BaiduMobStat'
+#pod 'DACircularProgress'
+#pod 'SDWebImage'
+#pod 'MWPhotoBrowser'
+#pod 'Reachability'
+#pod 'Alamofire'
+#pod 'HandyJSON'
+#pod 'SwiftFCXRefresh'
+#pod 'ESPullToRefresh'
+#pod 'SwiftFFDB'
+#pod 'lottie-ios'
+#pod 'LayoutKit'
+#pod 'ios-charts'
+#pod 'pop'
+#pod 'JTAppleCalendar'
+#pod 'LSAnimator'
+#pod 'MaterialKit'
+#pod 'BaiduMapKit'
+#pod 'AFNetworking'
+pod 'RxSwift'
+pod 'Moya'
+pod 'Moya/RxSwift'
+pod 'Moya/ReactiveSwift'
+pod 'ObjectMapper'
+pod 'RxCocoa'
+
+end
+
